@@ -7,6 +7,9 @@ public class RockSampleRock extends RSLocalObject{
 
 	public static final String CLASS_NAME = "RSRock";
 	
+	//rock starts unobserved, once checked, becomes observed
+	protected boolean isObserved = false;
+	
 	public RockSampleRock(String name, int x, int y){
 		super(name, x, y);
 	}

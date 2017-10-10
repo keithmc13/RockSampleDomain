@@ -193,6 +193,7 @@ public class RockSampleModel implements SampleStateModel{ //implements FullModel
 		//simply returns the current state
 		s = (RockSampleState)s;
 		
+		
 		return s;		
 	}
 	
@@ -202,6 +203,7 @@ public class RockSampleModel implements SampleStateModel{ //implements FullModel
 		 * will go to it and collect it (depending on the feedback
 		 */
 		RockSampleState rs = (RockSampleState)s;
+		
 		
 	}
 
